@@ -20,7 +20,7 @@ public class App
     	double vat = console.nextDouble();
     	App app = new App();
     	
-    	System.out.println("The total is: " + app.VAT(cost, vat));
+    	System.out.println("The total is: " + app.calculateVAT(cost, vat));
     }
     
     double calculateVAT (double cost, double vat) {
