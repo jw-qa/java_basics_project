@@ -23,7 +23,7 @@ public class App
     	System.out.println("The total is: " + app.VAT(cost, vat));
     }
     
-    double VAT (double cost, double vat) {
+    double calculateVAT (double cost, double vat) {
     	return (cost * (1 + vat / 100));
     }
 }
